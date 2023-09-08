@@ -1,0 +1,30 @@
+def get_priming_messages_list():
+    #"conversation history" so that chatgpt will follow what to do
+    primer = [{"role":"user",      "content":"IDEA: photograph portrait of a farmer, realistic"},
+              {"role":"assistant", "content":"portrait photo of an old farmer, photograph, highly detailed face, depth of field, moody light, golden hour, style by Dan Winters, Russell James, Steve McCurry, centered, extremely detailed, Nikon D850, award winning photography"},
+              {"role":"user",      "content":"IDEA: postapocalyptic white house abandoned"},
+              {"role":"assistant", "content":"white house, isolated building, fog, animals, birds, deer, bunny, postapocalyptic, overgrown with plant life and ivy, artgerm, yoshitaka amano, gothic interior, 8k, octane render, unreal engine"},
+              {"role":"user",      "content":"IDEA: sketch art of downtown new york"},
+              {"role":"assistant", "content":"downtown new york rooftops smoke and birds, cityscape, sketch, drawing, detailed, pencil, black and white by Adonna Khare, Paul Cadden, Pierre-Yves Riveau"},
+              {"role":"user",      "content":"IDEA: space galaxy scene"},
+              {"role":"assistant", "content":"space, planets, horizon, by Andrew McCarthy, Navaneeth Unnikrishnan, Manuel Dietrich, photo realistic, 8 k, cinematic lighting, hd, atmospheric, hyperdetailed, trending on artstation, deviantart, photography, glow effect"},
+              {"role":"user",      "content":"IDEA: steampunk style war camel"},
+              {"role":"assistant", "content":"camel going to war with riders on armored saddles installed with guns on its side, steampunk cybernetic biomechanical, 3d model, very coherent symmetrical artwork, unreal engine realistic render, 8k, micro detail, intricate, elegant, highly detailed, centered, digital painting, artstation, smooth, sharp focus, illustration, artgerm, Caio Fantini, wlop"},
+              {"role":"user",      "content":"IDEA: red mclaren"},
+              {"role":"assistant", "content":"photograph of red mclaren, photorealistic, vivid, sharp focus, reflection, refraction, sunrays, very detailed, intricate, intense cinematic composition"},
+              {"role":"user",      "content":"IDEA: close up photo of a steak lunch with potatoes"},
+              {"role":"assistant", "content":"steak lunch with potatoes, depth of field. bokeh. soft light. by Yasmin Albatoul, Harry Fayt. centered. extremely detailed. Nikon D850, (35mm|50mm|85mm). award winning photography."},
+              {"role":"user",      "content":"IDEA: landscape waterfall scene with birds"},
+              {"role":"assistant", "content":"birds in the sky, waterfall close shot 35 mm, realism, octane render, 8 k, exploration, cinematic, trending on artstation, 35 mm camera, unreal engine, hyper detailed, photo - realistic maximum detail, volumetric light, moody cinematic epic concept art, realistic matte painting, hyper photorealistic, epic, trending on artstation, movie concept art, cinematic composition, ultra - detailed, realistic"},
+              {"role":"user",      "content":"IDEA: purple-magenta-blue theme modern fashion"},
+              {"role":"assistant", "content":"photograph of a Fashion model, purple-magenta-blue theme modern fashion, full body, highly detailed and intricate, golden ratio, vibrant colors, hyper maximalist, futuristic, city background, luxury, elite, cinematic, fashion, depth of field, colorful, glow, trending on artstation, ultra high detail, ultra realistic, cinematic lighting, focused, 8k,"},
+              {"role":"user",      "content":"IDEA: cartoon dog on a shopping cart"},
+              {"role":"assistant", "content":"cartoon dog on a shopping cart, cute, funny, centered, award winning watercolor pen illustration, detailed, disney, isometric illustration, drawing, by Stephen Hillenburg, Matt Groening, Albert Uderzo"},
+              {"role":"user",      "content":"IDEA: close-up cyberpunk girl"},
+              {"role":"assistant", "content":"close-up cyberpunk girl, cyberpunk, in heavy raining futuristic tokyo rooftop cyberpunk night, sci-fi, fantasy, intricate, very very beautiful, elegant, neon light, highly detailed, digital painting, artstation, concept art, soft light, hdri, smooth, sharp focus, illustration, art by tian zi and craig mullins and wlop and alphonse much"},
+              {"role":"user",      "content":"IDEA: sub-urban red brick house render"},
+              {"role":"assistant", "content":"sub-urban, red, brick house render, shot 35 mm, realism, octane render, 8k, trending on artstation, 35 mm camera, unreal engine, hyper detailed, photo - realistic maximum detail, volumetric light, realistic matte painting, hyper photorealistic, trending on artstation, ultra - detailed, realistic"},
+              {"role":"user",      "content":"IDEA: small rabbit"},
+              {"role":"assistant", "content":"small rabbit on a plain grassland with trees in the background, wildlife photography, photograph, high quality, wildlife, f 1.8, soft focus, 8k, national geographic, award - winning photograph by nick nichols"}
+              ]
+    return primer
